@@ -35,3 +35,4 @@ There was a dilemma of whether to implement a stateful session or stateless sess
 In the end, I used stateful sessions and the reasons are
 - The selling point of JWT is being stateless and I was not able to achieve complete stateless using JWT. 
 - JWTs are exposed to XSS attack in the browser as the tokens will be stored in local storage.
+- If I have multiple angular client, then the user will have to login to each client.
