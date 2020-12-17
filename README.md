@@ -17,7 +17,7 @@ Now the question would be, how do we forward the request to the right microservi
 
 ### Advantages of Gateway
 - We don't have to expose microservices to the internet.
-- Gateway can perform authentication for a given request, instead of each microservice performing their authentication and authorization. I am using the gateway to authenticate the request.
+- Gateway can perform authentication for a given request, instead of each microservice performing their authentication and authorization. This promotes microservices to be stateless.
 - We can have circuit breakers, if a microservice goes down we can forward the request to the landing page that shows service is down.
 
 ## Tools and Technologies
