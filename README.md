@@ -2,7 +2,7 @@
 * [Introduction](#introduction)
 * [Purpose of Gateway](#purpose-of-gateway)
 * [Tools and Technologies](#tools-and-technologies)
-* [Stateful vs Stateless Authentication](#statefule-vs-stateless-authentication)
+* [Stateful vs Stateless Authentication](#stateful-vs-stateless-authentication)
 
 ## Introduction
 The first step to secure a web application is by having authentication and authorization functionality. Authentication checks the identity of the user whereas authorization checks whether user have access to specific resource. Thanks to Spring, all we have to do is configure security such that it provides authentication and authorization and we don't have to write logic for ourselves.
