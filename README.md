@@ -24,6 +24,7 @@ Now the question would be, how do we forward the request to the right microservi
 - Spring cloud gateway - A non-blocking i/o gateway that routes the request to the microservices.
 - Spring eureka - Helps with dynamic IP resolution for microservices registered with eureka.
 - OpenID connect - Using Facebook and Google for the sign-in option.
+- Slf4j - For logging information.
 - Redis - To store session information that can be scaled.
 - Language - Java 11
 

@@ -68,6 +68,7 @@ public class AccountService {
                             .bodyToMono(UserDTO.class).subscribe(userDTO -> {
                                 // save the information to redis cache
                                 redisHelper.addToHash(USER_HASH, email, userDTO);
+                                log.info("Added user info to the database");
                             });
                     }
                 }
