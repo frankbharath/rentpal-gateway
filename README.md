@@ -22,7 +22,7 @@ Now the question would be, how do we forward the request to the right microservi
 - We can have circuit breakers, if a microservice goes down we can forward the request to the landing page that shows service is down.
 
 ## Architecture
-![gateway](https://user-images.githubusercontent.com/49817583/103141047-25309100-46ef-11eb-9881-d7f8ef2b5bb6.png)
+![gateway](https://user-images.githubusercontent.com/49817583/103141094-9cfebb80-46ef-11eb-889e-d32b4556cf74.png)
 
 ## Tools and Technologies
 - Spring cloud gateway - A non-blocking i/o gateway that routes the request to the microservices.
